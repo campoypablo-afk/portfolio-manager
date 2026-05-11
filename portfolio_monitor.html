@@ -30,14 +30,14 @@ header h1{font-size:20px;font-weight:400;letter-spacing:-.3px}
 .mono{font-family:'Courier New',monospace}
 .ht{font-size:11px;color:var(--hint)}
 .lbl{font-size:10px;letter-spacing:1.1px;text-transform:uppercase;color:var(--hint);margin-bottom:11px;font-family:'Courier New',monospace}
-
+ 
 /* tabs */
 .tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:24px;gap:0}
 .tab{padding:10px 18px;font-size:12px;font-family:'Courier New',monospace;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s}
 .tab:hover{color:var(--text)}
 .tab.on{color:var(--text);border-bottom-color:var(--accent)}
 .tpanel{display:none}.tpanel.on{display:block}
-
+ 
 /* platform sections */
 .plat-section{margin-bottom:18px;border:1px solid var(--border);border-radius:var(--rl);overflow:hidden}
 .plat-header{display:flex;align-items:center;gap:10px;padding:13px 16px;background:var(--s2);border-bottom:1px solid var(--border);cursor:pointer;user-select:none}
@@ -47,7 +47,7 @@ header h1{font-size:20px;font-weight:400;letter-spacing:-.3px}
 .plat-header.open .toggle{transform:rotate(180deg)}
 .plat-body{padding:14px 16px;background:var(--surface);display:none}
 .plat-body.open{display:block}
-
+ 
 /* position rows */
 .pos-rows{margin-bottom:10px}
 .pos-row{display:flex;gap:7px;align-items:center;margin-bottom:6px;flex-wrap:wrap}
@@ -57,7 +57,7 @@ header h1{font-size:20px;font-weight:400;letter-spacing:-.3px}
 .pos-row .pcur{width:65px}
 .pos-row .pfx{width:75px}
 .pos-row .peur{width:110px}
-
+ 
 input[type=text],input[type=number],select{
   padding:6px 9px;border:1px solid var(--bs);border-radius:6px;
   font-size:12px;background:var(--surface);color:var(--text);
@@ -66,49 +66,49 @@ input[type=text],input[type=number],select{
 input:focus,select:focus{outline:2px solid var(--am);outline-offset:1px;border-color:transparent}
 input[readonly]{background:var(--s2);color:var(--muted)}
 .col-label{font-size:9px;color:var(--hint);font-family:'Courier New',monospace;letter-spacing:.5px;margin-bottom:3px}
-
+ 
 .row-del{background:transparent;border:none;color:var(--hint);cursor:pointer;font-size:16px;line-height:1;padding:4px;flex-shrink:0}
 .row-del:hover{color:var(--danger)}
-
+ 
 .add-row{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--am);cursor:pointer;font-family:'Courier New',monospace;padding:4px 0}
 .add-row:hover{color:var(--accent)}
-
+ 
 /* fx note */
 .fx-bar{background:var(--s3);border-radius:6px;padding:8px 12px;font-size:11px;color:var(--muted);font-family:'Courier New',monospace;margin-bottom:12px;display:flex;gap:16px;flex-wrap:wrap}
 .fx-item{display:flex;align-items:center;gap:6px}
 .fx-item label{color:var(--hint)}
 .fx-item input{width:80px}
-
+ 
 /* degiro csv */
 .csv-drop{border:1.5px dashed var(--bs);border-radius:var(--r);padding:18px;text-align:center;cursor:pointer;position:relative;transition:background .15s;font-size:12px;color:var(--muted)}
 .csv-drop:hover,.csv-drop.over{background:var(--al);border-color:var(--am)}
 .csv-drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
 .csv-drop i{font-size:22px;display:block;margin-bottom:6px;color:var(--am)}
 .csv-status{margin-top:10px;font-size:12px;font-family:'Courier New',monospace;color:var(--hint)}
-
+ 
 /* cta */
 .cta{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;padding-top:16px;border-top:1px solid var(--border)}
 .btn{padding:9px 20px;border-radius:8px;border:1px solid var(--bs);font-size:13px;cursor:pointer;font-family:'Courier New',monospace;background:var(--surface);color:var(--text)}
 .btn.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
 .btn:hover{opacity:.82}
-
+ 
 /* dashboard */
 .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:24px}
 .metric{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px}
 .metric .ml{font-size:9px;color:var(--muted);letter-spacing:.5px;display:block;margin-bottom:5px;font-family:'Courier New',monospace;text-transform:uppercase}
 .metric .mv{font-size:21px;font-weight:400;line-height:1}
 .pos{color:var(--ok)}.neg{color:var(--danger)}
-
+ 
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
 @media(max-width:620px){.g2{grid-template-columns:1fr}}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);padding:16px 18px}
-
+ 
 table{width:100%;border-collapse:collapse;font-size:12px}
 th{font-size:9px;letter-spacing:.8px;text-transform:uppercase;color:var(--hint);font-weight:400;text-align:left;padding:0 0 8px;border-bottom:1px solid var(--border);font-family:'Courier New',monospace}
 td{padding:8px 0;border-bottom:1px solid var(--border);vertical-align:middle}
 tr:last-child td{border-bottom:none}
 td.r,th.r{text-align:right}
-
+ 
 .badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:20px;font-family:'Courier New',monospace}
 .t-cash{background:#e6f2ee;color:#0a5032}.t-etf{background:#e6ecf6;color:#18347a}
 .t-stock{background:#f4ece6;color:#7a2810}.t-crypto{background:#ede6f4;color:#521a7a}
@@ -120,20 +120,20 @@ td.r,th.r{text-align:right}
   .t-bond{background:#282008;color:#c0a850}.t-re{background:#082808;color:#50c870}
   .t-liability{background:#280808;color:#c05050}
 }
-
+ 
 .chip{display:inline-flex;align-items:center;font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--border);cursor:pointer;font-family:'Courier New',monospace;transition:background .12s}
 .chip:hover{background:var(--al)}.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-
+ 
 .trow{display:flex;align-items:center;gap:10px;margin-bottom:7px}
 .trow .tl{width:90px;color:var(--muted);font-family:'Courier New',monospace;font-size:10px}
 .trow input[type=range]{flex:1}.trow .tv{width:34px;text-align:right;font-family:'Courier New',monospace;font-size:11px}
-
+ 
 .ritem{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)}
 .ritem:last-child{border-bottom:none}
 .act{font-size:10px;font-family:'Courier New',monospace;padding:2px 8px;border-radius:20px}
 .act.buy{background:#e6f2e6;color:#1a5a1a}.act.sell{background:#f2e6e6;color:#7a1a1a}.act.hold{background:var(--bg);color:var(--hint)}
 @media(prefers-color-scheme:dark){.act.buy{background:#082808;color:#50c050}.act.sell{background:#280808;color:#c05050}}
-
+ 
 .sbtn{font-size:11px;padding:4px 11px;border-radius:20px;border:1px solid var(--bs);background:transparent;color:var(--muted);cursor:pointer;font-family:'Courier New',monospace}
 .sbtn:hover{background:var(--al);color:var(--accent)}
 .hitem{font-size:11px;display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);color:var(--muted);font-family:'Courier New',monospace}
@@ -143,20 +143,20 @@ td.r,th.r{text-align:right}
 </head>
 <body>
 <div class="shell">
-
+ 
 <header>
   <h1>portfolio monitor</h1>
   <span class="ht mono" id="hdr-date"></span>
 </header>
-
+ 
 <div class="tabs">
   <div class="tab on" id="tab-entrada" onclick="showTab('entrada')">① Entrada de datos</div>
   <div class="tab" id="tab-dash" onclick="showTab('dash')">② Dashboard</div>
 </div>
-
+ 
 <!-- ══════════════════════════════════════════════════════ ENTRADA -->
 <div class="tpanel on" id="panel-entrada">
-
+ 
   <!-- FX global -->
   <div class="fx-bar">
     <span style="color:var(--muted);font-size:10px;letter-spacing:.5px;text-transform:uppercase;align-self:center">Tipos de cambio</span>
@@ -164,7 +164,7 @@ td.r,th.r{text-align:right}
     <div class="fx-item"><label>CLP/EUR</label><input type="number" id="fx-clp" value="0.00095" step="0.00001" oninput="recalcAll()"></div>
     <div class="fx-item"><label>GBP/EUR</label><input type="number" id="fx-gbp" value="1.17" step="0.001" oninput="recalcAll()"></div>
   </div>
-
+ 
   <!-- DEGIRO -->
   <div class="plat-section">
     <div class="plat-header open" onclick="togglePlat(this)">
@@ -184,30 +184,30 @@ td.r,th.r{text-align:right}
       <div class="pos-rows" id="rows-degiro" style="margin-top:10px"></div>
     </div>
   </div>
-
+ 
   <!-- MANUAL PLATFORMS -->
   <div id="manual-plats"></div>
-
+ 
   <div class="cta">
     <button class="btn pri" onclick="buildDashboard()"><i class="ti ti-chart-pie"></i> Ver dashboard</button>
     <button class="btn" onclick="loadDemo()"><i class="ti ti-bolt"></i> Cargar demo</button>
   </div>
 </div>
-
+ 
 <!-- ══════════════════════════════════════════════════════ DASHBOARD -->
 <div class="tpanel" id="panel-dash">
-
+ 
   <!-- sub-tabs -->
   <div style="display:flex;gap:0;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-bottom:22px;width:fit-content">
     <div class="subtab on" id="subtab-pat" onclick="showSubtab('pat')" style="padding:8px 20px;font-size:12px;font-family:'Courier New',monospace;cursor:pointer;border-right:1px solid var(--border);background:var(--accent);color:#fff">Balance patrimonial</div>
     <div class="subtab" id="subtab-port" onclick="showSubtab('port')" style="padding:8px 20px;font-size:12px;font-family:'Courier New',monospace;cursor:pointer;background:var(--s2);color:var(--muted)">Portfolio manager</div>
   </div>
-
+ 
   <!-- ── VISTA 1: BALANCE PATRIMONIAL ── -->
   <div id="subpanel-pat">
     <!-- métricas globales -->
     <div class="metrics" id="pat-metrics"></div>
-
+ 
     <div class="g2" style="margin-bottom:16px">
       <!-- donut patrimonio -->
       <div class="card">
@@ -221,13 +221,13 @@ td.r,th.r{text-align:right}
         <div id="pat-balance"></div>
       </div>
     </div>
-
+ 
     <!-- barras por macro-clase -->
     <div class="card" style="margin-bottom:16px">
       <div class="lbl">desglose por clase de activo</div>
       <div id="pat-bars"></div>
     </div>
-
+ 
     <!-- historial + snapshot -->
     <div class="card">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
@@ -238,15 +238,15 @@ td.r,th.r{text-align:right}
       <div style="position:relative;height:150px;margin-top:10px"><canvas id="ch" role="img" aria-label="Evolución"></canvas></div>
     </div>
   </div>
-
+ 
   <!-- ── VISTA 2: PORTFOLIO MANAGER ── -->
   <div id="subpanel-port" style="display:none">
     <!-- métricas líquidas -->
     <div class="metrics" id="port-metrics"></div>
-
+ 
     <!-- cash to deploy destacado -->
     <div id="port-cash-banner" style="margin-bottom:16px"></div>
-
+ 
     <div class="g2" style="margin-bottom:16px">
       <div class="card">
         <div class="lbl">por perfil de riesgo</div>
@@ -259,10 +259,10 @@ td.r,th.r{text-align:right}
         <div id="port-type-leg" style="display:flex;flex-wrap:wrap;gap:7px;font-size:11px;color:var(--muted)"></div>
       </div>
     </div>
-
+ 
     <!-- tabla detalle por riesgo -->
     <div id="port-risk-tables" style="margin-bottom:16px"></div>
-
+ 
     <!-- rebalanceo -->
     <div class="g2">
       <div class="card">
@@ -277,20 +277,20 @@ td.r,th.r{text-align:right}
         <div class="lbl">posiciones — todas</div>
         <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px" id="chips"></div>
         <div style="overflow-x:auto">
-          <table><thead><tr><th>Activo</th><th>Plataforma</th><th>Tipo</th><th class="r">Valor €</th><th class="r">Peso</th></tr></thead>
+          <table><thead><tr><th>Activo</th><th>Plataforma</th><th>Tipo</th><th class="r" id="th-valor" onclick="toggleSort()" style="cursor:pointer;user-select:none">Valor € ↓</th><th class="r">Peso</th></tr></thead>
           <tbody id="pbody"></tbody></table>
         </div>
       </div>
     </div>
   </div>
-
+ 
   <div style="text-align:center;margin-top:22px">
     <button class="btn" onclick="showTab('entrada')"><i class="ti ti-pencil"></i> Editar datos</button>
   </div>
 </div>
-
+ 
 </div><!-- /shell -->
-
+ 
 <script>
 // ── PLATFORM DEFINITIONS ───────────────────────────────────────────────────
 // Each manual platform has: id, name, icon, color, defaultRows
@@ -362,24 +362,24 @@ const MANUAL_PLATS = [
     ]
   },
 ];
-
+ 
 const TCOLS = {etf:'#378ADD',stock:'#D85A30',cash:'#1D9E75',crypto:'#7F77DD',bond:'#BA7517',re:'#639922',liability:'#E24B4A'};
 const TLBLS = {etf:'ETF',stock:'Stocks',cash:'Cash',crypto:'Crypto',bond:'Bonds',re:'Real Estate',liability:'Pasivo'};
 const CURRENCIES = ['EUR','USD','CLP','GBP'];
-
+ 
 let allPos = [];
 let snapshots = JSON.parse(localStorage.getItem('pm_snaps') || '[]');
 let targets = JSON.parse(localStorage.getItem('pm_targets') || JSON.stringify({etf:35,stock:20,cash:20,crypto:5,bond:8,re:12}));
 let activeFilter = 'all';
 let cT=null, cP=null, cH=null;
-
+ 
 // platform data store: { platformId: [{name, type, currency, value}] }
 let platData = JSON.parse(localStorage.getItem('pm_platdata') || '{}');
-
+ 
 // ── INIT ───────────────────────────────────────────────────────────────────
 document.getElementById('hdr-date').textContent = new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
 buildManualPlatforms();
-
+ 
 function buildManualPlatforms() {
   const container = document.getElementById('manual-plats');
   container.innerHTML = '';
@@ -410,13 +410,13 @@ function buildManualPlatforms() {
   });
   recalcAll();
 }
-
+ 
 // ── ROW RENDERING ──────────────────────────────────────────────────────────
 function renderPlatRows(platId) {
   const rows = platData[platId] || [];
   const container = document.getElementById('rows-' + platId);
   if (!container) return;
-
+ 
   // header labels on first render
   if (rows.length > 0) {
     container.innerHTML = `
@@ -434,7 +434,7 @@ function renderPlatRows(platId) {
   }
   updateCount(platId);
 }
-
+ 
 function renderRow(platId, row, i) {
   const eurVal = toEUR(row.value, row.currency);
   const eurDisplay = eurVal !== null ? fmt(eurVal) : '—';
@@ -456,7 +456,7 @@ function renderRow(platId, row, i) {
     </button>
   </div>`;
 }
-
+ 
 function recalcRow(platId, i) {
   const row = platData[platId]?.[i];
   if (!row) return;
@@ -465,14 +465,14 @@ function recalcRow(platId, i) {
   if (el) el.value = eurVal !== null ? fmt(eurVal) : '—';
   updateCount(platId);
 }
-
+ 
 function recalcAll() {
   MANUAL_PLATS.forEach(p => {
     const rows = platData[p.id] || [];
     rows.forEach((_, i) => recalcRow(p.id, i));
   });
 }
-
+ 
 function updateCount(platId) {
   const rows = platData[platId] || [];
   const total = rows.reduce((s, r) => {
@@ -482,33 +482,33 @@ function updateCount(platId) {
   const el = document.getElementById('count-' + platId);
   if (el) el.textContent = rows.length > 0 ? fmt(total) : '—';
 }
-
+ 
 function updateRow(platId, i, field, val) {
   if (!platData[platId]) return;
   platData[platId][i][field] = val;
   savePlatData();
 }
-
+ 
 function addRow(platId) {
   if (!platData[platId]) platData[platId] = [];
   platData[platId].push({name:'', type:'cash', currency:'EUR', value:''});
   renderPlatRows(platId);
   savePlatData();
 }
-
+ 
 function deleteRow(platId, i) {
   platData[platId]?.splice(i, 1);
   renderPlatRows(platId);
   savePlatData();
 }
-
+ 
 function savePlatData() {
   localStorage.setItem('pm_platdata', JSON.stringify(platData));
 }
-
+ 
 // ── DEGIRO CSV ─────────────────────────────────────────────────────────────
 let degiroPositions = [];
-
+ 
 function parseDeGiroEUR(raw) {
   // DeGiro ES format: "6.908,06" or "6908,06" or "225,95"
   // Remove quotes, dots used as thousands separator, replace comma decimal
@@ -518,7 +518,7 @@ function parseDeGiroEUR(raw) {
   const cleaned = s.replace(/\./g, '').replace(',', '.');
   return parseFloat(cleaned) || 0;
 }
-
+ 
 function handleDegiroCSV(input) {
   const file = input.files[0];
   if (!file) return;
@@ -532,12 +532,12 @@ function handleDegiroCSV(input) {
       if (!name || Math.abs(val) < 0.01) return null;
       return {name, platform:'DeGiro', platformId:'degiro', type:guessType(name), value:val};
     }).filter(Boolean);
-
+ 
     const dz = document.getElementById('dz-degiro');
     dz.classList.add('over');
     dz.innerHTML = `<i class="ti ti-circle-check" style="color:var(--ok)" aria-hidden="true"></i><div style="color:var(--ok)">${degiroPositions.length} posiciones cargadas</div>`;
     document.getElementById('status-degiro').innerHTML = '';
-
+ 
     // render read-only preview
     const rowsEl = document.getElementById('rows-degiro');
     rowsEl.innerHTML = `<div style="display:flex;gap:7px;margin-bottom:3px">
@@ -554,7 +554,7 @@ function handleDegiroCSV(input) {
   };
   reader.readAsText(file, 'UTF-8');
 }
-
+ 
 // ── FX & HELPERS ───────────────────────────────────────────────────────────
 function getFX() {
   return {
@@ -564,14 +564,14 @@ function getFX() {
     EUR: 1,
   };
 }
-
+ 
 function toEUR(val, currency) {
   const n = parseFloat(val);
   if (!val || isNaN(n)) return null;
   const fx = getFX();
   return n * (fx[currency] || 1);
 }
-
+ 
 function guessType(n) {
   n = n.toLowerCase();
   if (/btc|eth|bitcoin|crypto|coin|usdt|usdc|bnb|solana|xrp/.test(n)) return 'crypto';
@@ -582,21 +582,21 @@ function guessType(n) {
   if (/hipoteca|mortgage/.test(n)) return 'liability';
   return 'stock';
 }
-
+ 
 function fmt(n, d=0) {
   if (n === null || n === undefined || isNaN(n)) return '—';
   return new Intl.NumberFormat('es-ES', {minimumFractionDigits:d, maximumFractionDigits:d})
     .format(Math.round(n * Math.pow(10,d)) / Math.pow(10,d)) + '€';
 }
 function esc(s) { return String(s||'').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
-
+ 
 // ── TOGGLE COLLAPSE ────────────────────────────────────────────────────────
 function togglePlat(header) {
   header.classList.toggle('open');
   const body = header.nextElementSibling;
   body.classList.toggle('open');
 }
-
+ 
 // ── TAB NAV ────────────────────────────────────────────────────────────────
 function showTab(id) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('on'));
@@ -604,14 +604,14 @@ function showTab(id) {
   document.getElementById('tab-'+id).classList.add('on');
   document.getElementById('panel-'+id).classList.add('on');
 }
-
+ 
 // ── BUILD DASHBOARD ────────────────────────────────────────────────────────
 function collectPositions() {
   const pos = [];
-
+ 
   // DeGiro CSV
   degiroPositions.forEach(p => pos.push({...p}));
-
+ 
   // Manual platforms
   MANUAL_PLATS.forEach(plat => {
     (platData[plat.id] || []).forEach(row => {
@@ -627,10 +627,10 @@ function collectPositions() {
       });
     });
   });
-
+ 
   return pos;
 }
-
+ 
 function buildDashboard() {
   allPos = collectPositions();
   if (!allPos.length) { alert('Añade datos en al menos una plataforma o carga el demo.'); return; }
@@ -638,7 +638,7 @@ function buildDashboard() {
   showSubtab('pat');
   renderDash();
 }
-
+ 
 // ── DEMO ───────────────────────────────────────────────────────────────────
 function loadDemo() {
   // fill platData with demo values
@@ -701,7 +701,7 @@ function loadDemo() {
   buildManualPlatforms();
   buildDashboard();
 }
-
+ 
 // ── BASE CALCULATIONS ──────────────────────────────────────────────────────
 function getAssets()  { return allPos.filter(p=>p.type!=='liability').reduce((s,p)=>s+p.value,0); }
 function getLiab()    { return Math.abs(allPos.filter(p=>p.type==='liability').reduce((s,p)=>s+p.value,0)); }
@@ -713,7 +713,7 @@ function getByType()  {
   allPos.filter(p=>p.type!=='liability').forEach(p=>m[p.type]=(m[p.type]||0)+p.value);
   return m;
 }
-
+ 
 // Risk classification per position
 function getRisk(p) {
   const n = (p.name||'').toLowerCase();
@@ -729,7 +729,7 @@ function getRisk(p) {
 const RISK_LABELS = {'low':'Bajo','medium':'Medio','medium-high':'Medio-Alto','high':'Alto','very-high':'Muy Alto'};
 const RISK_COLORS = {'low':'#1D9E75','medium':'#378ADD','medium-high':'#BA7517','high':'#D85A30','very-high':'#C0392B'};
 const RISK_ORDER  = ['very-high','high','medium-high','medium','low'];
-
+ 
 // ── SUB-TAB NAV ────────────────────────────────────────────────────────────
 function showSubtab(id) {
   ['pat','port'].forEach(s => {
@@ -741,20 +741,20 @@ function showSubtab(id) {
     tab.style.color = isOn ? '#fff' : 'var(--muted)';
   });
 }
-
+ 
 // ── MAIN RENDER ────────────────────────────────────────────────────────────
 function renderDash() {
   renderPatrimonial();
   renderPortfolio();
   renderHistory();
 }
-
+ 
 // ══════════════════════════════════════════════════════════════════
 // VISTA 1 — BALANCE PATRIMONIAL
 // ══════════════════════════════════════════════════════════════════
 function renderPatrimonial() {
   const nw=getNet(), a=getAssets(), liq=getLiquid(), liab=getLiab(), re=allPos.filter(p=>p.type==='re').reduce((s,p)=>s+p.value,0);
-
+ 
   // Metrics
   document.getElementById('pat-metrics').innerHTML = [
     {l:'CAPITAL NETO', v:fmt(nw), c:nw>=0?'pos':'neg'},
@@ -763,7 +763,7 @@ function renderPatrimonial() {
     {l:'PORTFOLIO LÍQUIDO', v:fmt(liq)},
     {l:'HIPOTECA', v:fmt(liab), c:'neg'},
   ].map(m=>`<div class="metric"><span class="ml">${m.l}</span><div class="mv ${m.c||''}">${m.v}</div></div>`).join('');
-
+ 
   // Macro groups for donut: Real Estate / Portfolio / Cash / Crypto / Pasivo
   const macro = {
     'Inmueble':    allPos.filter(p=>p.type==='re').reduce((s,p)=>s+p.value,0),
@@ -773,7 +773,7 @@ function renderPatrimonial() {
   };
   const macroColors = {'Inmueble':'#639922','Portfolio':'#378ADD','Cash':'#1D9E75','Crypto':'#7F77DD'};
   const totalBruto = Object.values(macro).reduce((s,v)=>s+v,0);
-
+ 
   if (cT) cT.destroy();
   cT = new Chart(document.getElementById('pat-donut'), {
     type:'doughnut',
@@ -786,7 +786,7 @@ function renderPatrimonial() {
   document.getElementById('pat-donut-leg').innerHTML = Object.keys(macro).map(k =>
     `<span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:2px;background:${macroColors[k]};flex-shrink:0"></span>${k} ${(macro[k]/totalBruto*100).toFixed(1)}%</span>`
   ).join('');
-
+ 
   // Balance sheet
   document.getElementById('pat-balance').innerHTML = `
     <div style="margin-bottom:14px">
@@ -810,7 +810,7 @@ function renderPatrimonial() {
         <span>Capital neto</span><span style="font-family:monospace;color:${nw>=0?'var(--ok)':'var(--danger)'}">${fmt(nw)}</span>
       </div>
     </div>`;
-
+ 
   // Horizontal bars by asset class (full detail)
   const byType = getByType();
   const barTotal = a;
@@ -830,7 +830,7 @@ function renderPatrimonial() {
     </div>`;
   }).join('');
 }
-
+ 
 // ══════════════════════════════════════════════════════════════════
 // VISTA 2 — PORTFOLIO MANAGER (sin inmueble/hipoteca)
 // ══════════════════════════════════════════════════════════════════
@@ -839,7 +839,7 @@ function renderPortfolio() {
   const cash = getCash();
   const invested = liquid - cash;
   const portPos = allPos.filter(p=>p.type!=='liability'&&p.type!=='re');
-
+ 
   // Metrics
   document.getElementById('port-metrics').innerHTML = [
     {l:'PORTFOLIO TOTAL', v:fmt(liquid)},
@@ -848,7 +848,7 @@ function renderPortfolio() {
     {l:'% CASH', v:(liquid>0?cash/liquid*100:0).toFixed(1)+'%', c: cash/liquid > 0.25 ? 'pos' : ''},
     {l:'POSICIONES', v:portPos.filter(p=>p.type!=='cash').length},
   ].map(m=>`<div class="metric"><span class="ml">${m.l}</span><div class="mv ${m.c||''}">${m.v}</div></div>`).join('');
-
+ 
   // Cash to deploy banner
   const cashPct = liquid>0 ? cash/liquid*100 : 0;
   const bannerColor = cashPct > 30 ? '#BA7517' : cashPct > 20 ? '#1D9E75' : 'var(--muted)';
@@ -864,7 +864,7 @@ function renderPortfolio() {
         ${allPos.filter(p=>p.type==='cash').map(p=>`<div>${p.platform}: ${fmt(p.value)}</div>`).join('')}
       </div>
     </div>`;
-
+ 
   // Risk donut
   const byRisk = {};
   portPos.forEach(p => { const r=getRisk(p); byRisk[r]=(byRisk[r]||0)+p.value; });
@@ -878,7 +878,7 @@ function renderPortfolio() {
   document.getElementById('port-risk-leg').innerHTML = rKeys.map(r =>
     `<span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:2px;background:${RISK_COLORS[r]};flex-shrink:0"></span>${RISK_LABELS[r]} ${(byRisk[r]/liquid*100).toFixed(1)}%</span>`
   ).join('');
-
+ 
   // Type donut (portfolio only)
   const byType={};
   portPos.forEach(p=>byType[p.type]=(byType[p.type]||0)+p.value);
@@ -892,42 +892,20 @@ function renderPortfolio() {
   document.getElementById('port-type-leg').innerHTML = tKeys.map(k =>
     `<span style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:2px;background:${TCOLS[k]||'#888'};flex-shrink:0"></span>${TLBLS[k]||k} ${(byType[k]/liquid*100).toFixed(1)}%</span>`
   ).join('');
-
-  // Risk tables — one collapsible block per risk level
-  document.getElementById('port-risk-tables').innerHTML = RISK_ORDER.filter(r=>byRisk[r]>0).map(r => {
-    const pos = portPos.filter(p=>getRisk(p)===r).sort((a,b)=>b.value-a.value);
-    const total = byRisk[r];
-    return `<div style="border:1px solid var(--border);border-radius:var(--rl);margin-bottom:10px;overflow:hidden">
-      <div style="display:flex;align-items:center;gap:10px;padding:11px 14px;background:var(--s2);border-bottom:1px solid var(--border)">
-        <span style="width:10px;height:10px;border-radius:50%;background:${RISK_COLORS[r]};flex-shrink:0"></span>
-        <span style="font-size:12px;font-family:monospace;font-weight:500;flex:1">${RISK_LABELS[r]}</span>
-        <span style="font-size:11px;font-family:monospace;color:var(--muted)">${fmt(total)} · ${(total/liquid*100).toFixed(1)}%</span>
-      </div>
-      <div style="padding:0 14px;background:var(--surface)">
-        <table style="margin:0"><thead><tr>
-          <th>Activo</th><th>Plataforma</th><th>Tipo</th><th class="r">Valor €</th><th class="r">% portfolio</th>
-        </tr></thead><tbody>
-        ${pos.map(p=>`<tr>
-          <td>${esc(p.name)}</td>
-          <td style="font-size:10px;color:var(--hint);font-family:monospace">${p.platform}</td>
-          <td><span class="badge t-${p.type}">${TLBLS[p.type]||p.type}</span></td>
-          <td class="r" style="font-family:monospace;font-size:12px">${fmt(p.value)}</td>
-          <td class="r" style="font-family:monospace;font-size:11px;color:var(--muted)">${(p.value/liquid*100).toFixed(1)}%</td>
-        </tr>`).join('')}
-        </tbody></table>
-      </div>
-    </div>`;
-  }).join('');
-
+ 
+  document.getElementById('port-risk-tables').innerHTML = '';
+ 
   // Rebalance (on liquid)
   renderTargetControls();
   renderRebalance();
-
+ 
   // Positions table (all)
   renderPositions();
 }
-
+ 
 // ── POSITIONS TABLE ────────────────────────────────────────────────────────
+let sortDir = -1; // -1 = desc, 1 = asc
+ 
 function renderPositions() {
   const types = ['all', ...new Set(allPos.map(p=>p.type))];
   document.getElementById('chips').innerHTML = types.map(t =>
@@ -936,7 +914,9 @@ function renderPositions() {
   const total = getLiquid();
   const portPos = allPos.filter(p=>p.type!=='liability'&&p.type!=='re');
   const filtered = activeFilter==='all' ? portPos : portPos.filter(p=>p.type===activeFilter);
-  const sorted = [...filtered].sort((a,b)=>Math.abs(b.value)-Math.abs(a.value));
+  const sorted = [...filtered].sort((a,b) => sortDir * (b.value - a.value));
+  const arrow = sortDir === -1 ? ' ↓' : ' ↑';
+  document.getElementById('th-valor').innerHTML = 'Valor €' + arrow;
   document.getElementById('pbody').innerHTML = sorted.map(p => {
     const pct = total>0 ? p.value/total*100 : 0;
     return `<tr>
@@ -949,7 +929,8 @@ function renderPositions() {
   }).join('');
 }
 function setFilter(t) { activeFilter=t; renderPositions(); }
-
+function toggleSort() { sortDir *= -1; renderPositions(); }
+ 
 // ── REBALANCE ──────────────────────────────────────────────────────────────
 function renderTargetControls() {
   document.getElementById('tcontrols').innerHTML = ['etf','stock','cash','crypto','bond'].map(k => `
@@ -960,7 +941,7 @@ function renderTargetControls() {
       <span class="tv" id="tv-${k}">${targets[k]}%</span>
     </div>`).join('');
 }
-
+ 
 function renderRebalance() {
   localStorage.setItem('pm_targets', JSON.stringify(targets));
   const liq=getLiquid(), bt=getByType();
@@ -976,7 +957,7 @@ function renderRebalance() {
     </div>`;
   }).join('');
 }
-
+ 
 // ── SNAPSHOTS ──────────────────────────────────────────────────────────────
 function saveSnap() {
   snapshots.unshift({date:new Date().toLocaleDateString('es-ES'), net:getNet(), assets:getAssets(), liquid:getLiquid()});
@@ -984,14 +965,14 @@ function saveSnap() {
   localStorage.setItem('pm_snaps', JSON.stringify(snapshots));
   renderHistory();
 }
-
+ 
 function renderHistory() {
   const el = document.getElementById('hlist');
   if (!snapshots.length) { el.innerHTML='<div class="empty">Sin snapshots todavía.</div>'; }
   else el.innerHTML = snapshots.slice(0,5).map(s =>
     `<div class="hitem"><span>${s.date}</span><span>${fmt(s.net)}</span><span style="color:var(--hint)">${fmt(s.liquid)} liq.</span></div>`
   ).join('');
-
+ 
   if (cH) cH.destroy();
   if (snapshots.length < 2) return;
   const sorted = [...snapshots].reverse();
